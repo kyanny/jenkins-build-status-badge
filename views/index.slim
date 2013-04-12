@@ -1,0 +1,9 @@
+html
+  head
+    title Jenkins <3 Travis CI
+  body
+    h1 Jenkins のビルド結果を Travis CI みたいにバッヂ画像で表示するやつ
+    p ココに job の URL を入れて押せ
+    form{action="preview" method="get"}
+      input{type="text" name="job_url" size="60"}
+      input{type="submit"}

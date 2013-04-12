@@ -1,0 +1,18 @@
+html
+  head
+    title Jenkins <3 Travis CI
+    link{rel="stylesheet" href="/site.css"}
+  body
+    h1 Jenkins のビルド結果を Travis CI みたいにバッヂ画像で表示するやつ
+    div
+      dl
+        dt HTML
+        dd
+          img src="#{badge_url}"
+          input type="text" size="120" value="#{badge_html}"
+          span &lt;- コピペしてね
+        dt Markdown
+        dd
+          img src="#{badge_url}"
+          input type="text" size="120" value="#{badge_markdown}"
+          span &lt;- コピペしてね
